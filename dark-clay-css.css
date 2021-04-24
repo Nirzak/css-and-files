@@ -906,6 +906,10 @@ p.min_padding {
 	margin: 2px 0px;
 }
 
+.pad {
+	padding: 1em;
+}
+
 .sidebar .pad {
 	padding: 10px 5px;
 }
