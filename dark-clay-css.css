@@ -1457,6 +1457,46 @@ h3 { color: #d3c297; } /* accent 2: cc9033 */
 	text-align: right;
 }
 
+.as-scroll-pane .as-scroll-content {
+	width: 3000px;
+	float: left
+}
+
+.as-scroll-pane .as-scroll-content .as-item {
+	float: left;
+	margin: 0px 15px 0px 15px
+}
+
+.as-scroll-pane .as-scroll-content .as-item div.as-imgc img {
+	height: auto;
+	width: auto;
+	max-height: 100%;
+	max-width: 100%
+}
+
+.as-scroll-pane .as-scroll-content .as-item div img {
+	height: 120px;
+	width: 120px;
+	overflow: hidden;
+	font-size: 10px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: auto;
+	line-height: 120px;
+	text-align: center;
+	border: none !important
+}
+
+.as-scroll-pane .as-scroll-content .as-item div {
+	width: 120px;
+	height: 120px;
+	position: relative;
+	background-color: #e0e0e0
+}
+
 /*** Artist page ***/
 #artist .edit_form, #torrents .edit_form, #collage #edit_collage {
 	padding: 20px 30px;
