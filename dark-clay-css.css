@@ -1460,7 +1460,7 @@ h3 { color: #d3c297; } /* accent 2: cc9033 */
 
 .as-scroll-pane {
 	overflow: auto;
-	width: 800px;
+	width: 765px;
 	float: left;
 	height: 154px;
 }
@@ -1536,13 +1536,14 @@ h3 { color: #d3c297; } /* accent 2: cc9033 */
 	border: 0px !important;
 }
 
-.as-scroll-pane .ui-widget-content { background: none !important; }
+.as-scroll-pane .ui-widget-content { }
 * html .as-scroll-pane .scroll-content-item { display: inline; } /* IE6 float double margin bug */
-.as-scroll-pane .scroll-bar-wrap .ui-slider {  background: none; border:0; height: 2em; margin: 0 auto;  }
-.as-scroll-pane .scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 100%; height: 100%; margin: 0 auto; }
+.as-scroll-pane .scroll-bar-wrap .ui-slider {  background-color: #303235; border:0; height: 1.5em; margin: 0 auto;  }
+.as-scroll-pane .scroll-bar-wrap .ui-handle-helper-parent { position: relative; width: 765px; height: 100%; margin: 0 auto; }
 .as-scroll-pane .scroll-bar-wrap .ui-slider-handle { cursor: pointer; outline: none; background: none; background-color: #eee; border: 1px solid #ccc;
 	font-size: 86%;
 	top: -1px;
+	margin-lef: -1.57px;
 }
 .as-scroll-pane .scroll-bar-wrap .ui-state-active,
 .as-scroll-pane .scroll-bar-wrap .ui-state-hover { background-color: #ececec; border: 1px solid #bbb; }
