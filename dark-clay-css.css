@@ -1468,7 +1468,7 @@ h3 { color: #d3c297; } /* accent 2: cc9033 */
 	margin: 0px 15px 0px 15px
 }
 
-/*.as-scroll-pane .as-scroll-content .as-item div.as-imgc img {
+.as-scroll-pane .as-scroll-content .as-item div.as-imgc img {
 	height: auto;
 	width: auto;
 	max-height: 100%;
@@ -1496,7 +1496,7 @@ h3 { color: #d3c297; } /* accent 2: cc9033 */
 	height: 120px;
 	position: relative;
 	background-color: #e0e0e0
-}*/
+}
 
 /*** Artist page ***/
 #artist .edit_form, #torrents .edit_form, #collage #edit_collage {
