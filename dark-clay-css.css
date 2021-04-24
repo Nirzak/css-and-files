@@ -153,7 +153,22 @@ input[type='button']:active, input[type='submit']:active, button:active {
   box-shadow: 1px 1px 1px rgba(255,255,255,0.1);
 }
 
+.as-scroll-pane {
+	overflow: auto;
+	width: 560px;
+	float: left;
+	height: 154px;
+}
 
+.as-scroll-pane .as-scroll-content {
+	width: 2820px;
+	float: left;
+}
+
+.as-scroll-pane .as-scroll-content .as-item {
+	float: left;
+	margin: 0px 10px 0px 10px;
+}
 
 img {	border: none; }
 code { background: #1a1a1a; color: #84b686; padding: 1px 4px; font-family: "Consolas", Monospace; }
