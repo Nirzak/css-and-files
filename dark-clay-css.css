@@ -1,8 +1,10 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Terminal+Dosis');
 
-#torrents .torrent_table .group td:nth-of-type(5),
-#torrents .torrent_table .group td:nth-of-type(4), 
+#torrents .torrent_table .group td:nth-of-type(4){
+	font-size: 1.2em;
+}
+#torrents .torrent_table .group td:nth-of-type(5), 
 #torrents .torrent_table .group td:nth-of-type(6),
 #torrents .torrent_table .group td:nth-of-type(7),
 #torrents .torrent_table .group td:nth-of-type(8){
