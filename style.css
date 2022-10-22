@@ -1,0 +1,7 @@
+.songs-list-row__song-name-wrapper { flex: 12; } 
+
+.quality { float:left; flex:1; }
+
+.audio_quality, .track_quality  { height: 30px; margin-right: 0.5em; }
+
+#album_quality { margin-top: 2em; }
